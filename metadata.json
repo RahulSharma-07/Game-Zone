@@ -1,0 +1,6 @@
+{
+  "name": "The Game Zone Ankleshwar",
+  "description": "Premium video game lounge and gaming zone at Gadkhol Patiya, Ankleshwar, Gujarat. PlayStation gaming, multiplayer battles, and top games.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

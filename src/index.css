@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-gaming: 'Rajdhani', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-dark-950: #050507;
+  --color-dark-900: #0A0A0B;
+  --color-dark-850: #0F0F12;
+  --color-dark-800: #14141A;
+  --color-dark-750: #1B1B22;
+  --color-blue-glow: #2563EB;
+  --color-blue-accent: #3B82F6;
+}
+
+/* Custom subtle gaming glows & selection */
+::selection {
+  background-color: #2563EB;
+  color: #ffffff;
+}
+
+html {
+  font-family: var(--font-sans);
+  color-scheme: dark;
+  background-color: #0A0A0B;
+}
+
+.font-gaming {
+  font-family: var(--font-gaming);
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px -3px rgba(37, 99, 235, 0.45);
+}
+
+.glow-blue-sm {
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.4);
+}
+
+/* Subtle carbon texture overlay */
+.bg-grid-pattern {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
